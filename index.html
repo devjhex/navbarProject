@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 4px;
+        background-color: red;
+    }
+    div::after{
+        content:"";
+        position: absolute;
+        width: 100px;
+        height: 4px;
+        background-color: red;
+        top: 20px;
+    }
+</style>
+<body>
+    <div></div>
+</body>
+</html>
